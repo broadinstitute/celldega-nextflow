@@ -1,10 +1,10 @@
 nextflow.enable.dsl=2
 
-params.sample = 'Xenium_V1_human_Pancreas_FFPE_outs'
-params.data_root_dir = '/Users/jishar/Documents/celldega/notebooks/data'
+params.sample = ''
+params.data_root_dir = ''
 params.tile_size = 250
 params.image_tile_layer = 'all'
-params.landscape_files = '/Users/jishar/Downloads/nextflow-dev/celldega_landscape_files/Xenium_V1_human_Pancreas_FFPE_outs'
+params.landscape_files = ''
 
 workflow {
     ch_inputs = Channel.of([
