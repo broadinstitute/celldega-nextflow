@@ -1,0 +1,10 @@
+name: celldega-nf-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - celldega==0.13.0a4
+      - pyvips
